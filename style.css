@@ -50,7 +50,8 @@ body {
 .header_button {
     display: none;
 }
-.main {
+.help {
+    
     display: flex;
     color: #fff;
 }
@@ -266,3 +267,189 @@ body {
         display: none;
     }
 }
+.main_content {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    position: relative;
+    left: 10%;
+    margin: 150px 0 150px 0;
+    max-width: 1200px;
+}
+.main_content_head {
+    font-size: 40px;
+}
+.main_content_text {
+    font-size: 16px;
+    margin-top: 20px;
+}
+.main_content_block {
+    display: flex;
+    flex-direction: row;
+}
+.content_block_box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 57px 40px;
+    margin-top: 50px;
+    width: 300px;
+    height: 180px;
+    background-color: #4F5261;
+    border-radius: 12px;
+}
+.content_block_box:nth-child(2) {
+    left: 330px;
+    background: #232532;
+}
+.content_block_box:nth-child(3) {
+    left: 670px;
+    background: #323443;
+}
+.content_block_box:nth-child(4) {
+    left: 1000px;
+    background: #4F5261;
+}
+.block_box_head {
+    font-size: 16px;
+    width: 225px;
+}
+.block_box_text {
+    font-size: 14px;
+    margin-top: 10px;
+    position: relative;
+    color: #efede8b2;
+    width: 225px;
+}
+.block_box_text::after {
+    position: absolute;
+    content: '';
+    top: 35%;
+    right: -10%;
+    width: 25px;
+    height: 20px;
+    background: url(./photo/Group\ 4.png);
+}
+.booo {
+    margin-top: 350px;
+}
+.main_content2 {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.main_content2_block {
+    width: 526px;
+}
+.content2_block_head {
+    font-size: 40px;
+}
+.content2_block_text {
+    font-size: 14px;
+    margin: 38px 0 24px 0;
+    color: #efede8a1;
+}
+.content2_block_link {
+    font-size: 16px;
+    position: relative;
+}
+.content2_block_link::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: -60%;
+    width: 25px;
+    height: 20px;
+    background: url(./photo/Group\ 4.png);
+}
+.main_content3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin: 0 140px;
+}
+.main_content3_head {
+    color: #fff;
+    font-family: 'Inter';
+    font-size: 50px;
+}
+.main_content3_block {
+    display: flex;
+}
+.contetn3_block_box {
+    margin: 77px 0 0px 0;
+    width: 538px;
+    height: 640px;
+    padding: 68px;
+    background-color: #232532;
+    margin-right: 68px;
+}
+.contetn3_block_box:nth-child(2) {
+    background-color: #323443;
+}
+.block_box_header {
+    color: #fff;
+    width: 402px;
+    font-size: 40px;
+}
+.block_box_words {
+    width: 402px;
+    font-size: 18px;
+    margin: 34px 0 16px 0;
+    color: #efede89c;
+}
+.block_box_list {
+    width: 402px;
+    font-size: 18px;
+    color: #efede89c;
+}
+.block_box_link1 {
+    position: relative;
+    top: 200px;
+}
+.block_box_link1::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: -60%;
+    width: 25px;
+    height: 20px;
+    background: url(./photo/Group\ 4.png);
+}
+.block_box_link {
+    position: relative;
+    top: 115px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #0070C9;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+.main_content3_link {
+    margin: 36px 0 27px 0;
+    padding: 10px 20px;
+    display: flex;
+    align-items: end;
+    width: 150px;
+    height: 38px;
+    background: #FAFAF9;
+    box-shadow: 0px 4px 9px rgba(255, 255, 255, 0.25);
+    position: relative;
+    margin-left: 1100px;
+}
+.main_content3_link::after {
+    position: absolute;
+    top: 32%;
+    left: 75%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    content: '';
+    background-image: url(./photo/coolicon.png);
+}
+/* https://www.figma.com/file/fnI6t3adIv4thIDTZpfEbX/Exploration-Workout-%26-Fitness---Landing-Page-(Community)?type=design&node-id=78-6&t=ba6JAyHBkKK6HZzm-0 */
